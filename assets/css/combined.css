@@ -9402,9 +9402,39 @@ a:hover>.nk-icon-search:after {
 .nk-blog-isotope .nk-blog-post .nk-post-thumb>a:hover {
     opacity: .6
 }
+.categories-fix {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-1 {
+    background-color: #83573a;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: .8rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-right: 9px;
+    padding: 8px;
+}
+
+.category-1:hover {
+    background-color: #696969;
+    color: #fff;
+}
+
+.presentation {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
 
 .nk-blog-isotope .nk-blog-post .nk-post-category a {
-    display: inline-block;
+    position: relative;
+    margin: 25px;
+    /* display: block; */
     background-color: #83573a;
     text-transform: uppercase;
     text-decoration: none;
@@ -9415,14 +9445,16 @@ a:hover>.nk-icon-search:after {
     bottom: 9px;
     padding: 5.5px 15px;
     min-width: 90px;
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 25px;
+    margin-right: auto;
     color: #fff;
     transition: background-color .5s
 }
 
+
 .nk-blog-isotope .nk-blog-post .nk-post-category a:hover {
-    background-color: #393939
+    background-color: #fff;
 }
 
 .nk-blog-isotope .nk-blog-post a+.nk-post-category a {
@@ -9490,7 +9522,7 @@ a:hover>.nk-icon-search:after {
     font-size: .84rem;
     text-transform: uppercase;
     font-weight: 500;
-    margin-bottom: 17px
+    /* margin-bottom: 17px; */
 }
 
 .nk-blog-isotope-2 .nk-blog-post .nk-post-title {
@@ -9536,7 +9568,7 @@ a:hover>.nk-icon-search:after {
     color: #171717;
     font-size: .84rem;
     text-transform: uppercase;
-    font-weight: 500
+    font-weight: 500;
 }
 
 .nk-blog-post-single .nk-post-category a,

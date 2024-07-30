@@ -1,7 +1,7 @@
-# interioreverywhere-website
+# albinkllokoqi-website
 The personal website of the Music Album of Albin Kllokoqi. The website is still getting developed.
 
-![Example Screenshot](mimi-website1.png)
+![Example Screenshot](albinkllokoqi-website-screenshot.png)
 
 > [!NOTE]
 > Its only for educational purposes only!
