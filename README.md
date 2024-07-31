@@ -1,5 +1,5 @@
-# albinkllokoqi-website
-The personal website of the Music Album of Albin Kllokoqi. The website is still getting developed.
+# interioreverywhere-website
+The personal website of the Architect Mirejete Simitciu. The website is still getting developed.
 
 ![Example Screenshot](albinkllokoqi-website-screenshot.png)
 
