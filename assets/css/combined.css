@@ -2169,13 +2169,13 @@ a.btn.disabled {
 
 .btn-success {
     color: black;
-    background-color: #fff;
+    background-color: #f7eadb;
     /* border-color: #5cb85c; */
     width: auto;
-    font-size: large;
+    font-size: medium;
     padding: 10px 15px 10px 15px;
-    border-radius: 3px;
-    margin-top: auto;
+    border-radius: 0px;
+    margin-top: 25px;
 
 }
 
@@ -2190,9 +2190,9 @@ a.btn.disabled {
 .btn-success.active,
 .btn-success:active,
 .open>.btn-success.dropdown-toggle {
-    color: #fff;
-    background-color: #449d44;
-    border-color: #419641;
+    color: black;
+    background-color: #f7eadb;
+    border-color: #f7eadb;
     background-image: none
 }
 
@@ -2205,9 +2205,9 @@ a.btn.disabled {
 .open>.btn-success.dropdown-toggle.focus,
 .open>.btn-success.dropdown-toggle:focus,
 .open>.btn-success.dropdown-toggle:hover {
-    color: #fff;
-    background-color: #398439;
-    border-color: #2d672d
+    color: black;
+    background-color: #f7eadb;
+    border-color: #f7eadb
 }
 
 .btn-success.disabled.focus,
@@ -2216,8 +2216,8 @@ a.btn.disabled {
 .btn-success:disabled.focus,
 .btn-success:disabled:focus,
 .btn-success:disabled:hover {
-    background-color: #5cb85c;
-    border-color: #5cb85c
+    background-color: #f7eadb;
+    border-color: #f7eadb
 }
 
 .btn-link {
@@ -5928,6 +5928,10 @@ h4 {
     background-color: #fff !important
 }
 
+.bg-creme {
+    background-color: #f7eadb !important
+}
+
 .bg-black {
     background-color: #000 !important
 }
@@ -7157,7 +7161,7 @@ h4 {
 
 .nk-navbar ul>li>a:focus,
 .nk-navbar ul>li>a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .nk-navbar .nk-navbar-bg {
@@ -7298,7 +7302,7 @@ h4 {
 
 .nk-navbar.nk-navbar-white-text-on-top .nk-nav>li.active>a,
 .nk-navbar.nk-navbar-white-text-on-top .nk-nav>li>a:hover {
-    color: #fff
+    color: #f7eadb
 }
 
 .nk-navbar.nk-navbar-white-text-on-top.nk-navbar-solid .nk-nav>li>a {
@@ -7437,14 +7441,14 @@ h4 {
     text-transform: none;
     font-weight: 700;
     padding: 3px 80px;
-    color: #d8d8d8
+    color: #b1b1b1
 }
 
 .nk-navbar-full .nk-nav .dropdown>li.active>a,
 .nk-navbar-full .nk-nav .dropdown>li>a:hover,
 .nk-navbar-full .nk-nav>li.active>a,
 .nk-navbar-full .nk-nav>li>a:hover {
-    color: #fff
+    color: #f7eadb;
 }
 
 .nk-navbar-full .nk-nav .dropdown>li>a:after,
@@ -7650,7 +7654,7 @@ h4 {
 
 .nk-footer {
     position: relative;
-    background-color: #ebebeb;
+    background-color: #f7eadb;
     overflow: hidden;
     z-index: 1
 }
